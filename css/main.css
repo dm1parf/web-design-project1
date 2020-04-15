@@ -1,0 +1,197 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+.clearfix {
+    content:'';
+    display:table;
+    width: 100%;
+    clear: both;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+header {
+    background: url(../img/first-bg.jpg) no-repeat center top / cover;
+    padding-bottom: 160px;
+}
+
+.container {
+    width: 940px;
+    margin: 0 auto;
+
+}
+
+.logo {
+    float: left;
+    margin-top: 44px;
+}
+
+nav {
+    float: right;
+    margin-top: 50px;
+}
+
+.menu {
+    padding: 0;
+    margin: 0;
+    display:block;
+
+}
+
+.menu li {
+    float: left;
+    display: block;
+    margin-right: 42px;
+    font-size: 14px;
+}
+
+.menu  a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
+
+.titles {
+    
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    margin-top: 213px;
+}
+
+.titlesFirst {
+    font-size: 40px;
+}
+
+h1 {
+    font-size: 75px;
+    margin-top: 52px;
+}
+
+.button {
+    
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: #fed136;
+    color: #484543;
+    border-radius: 3px;
+    display: block;
+    width: 240px;
+    padding: 20px 0;
+    text-align: center;
+    margin: 0px auto;
+    margin-top: 50px;
+    
+}
+
+.title {
+    padding-top: 120px;
+    padding-bottom: 80px;
+}
+
+.title h2 {
+    margin: 0px;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #222222;
+    text-align: center;
+}
+
+.title p {
+    margin-top: 5px;
+    padding: 0;
+    font-size: 16px;
+    color: #8d8d8d;
+    text-align: center;
+    margin-bottom:0px;
+}
+
+#services {
+    background: #ffffff;
+    padding-bottom: 120px;
+}
+
+.servicesItem {
+    
+    
+    width: 250px;
+    float: left;
+    text-align: center;
+    
+}
+
+.servicesItem h3 {
+    font-size: 18px;
+    color: #222222;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.servicesItem p {
+    font-size: 14px;
+    color: #8d8d8d;
+    line-height: 1.5em;
+}
+
+.servicesItem:last-child {
+    float: right;
+}
+
+.servicesItem:nth-child(2) {
+    margin-left: 95px;
+}
+
+#portfolio {
+    background: #f7f7f7;
+    padding-bottom: 120px;
+}
+
+.works img{
+    float: left;
+}
+
+.works img:last-child{
+    float: right;
+}
+
+.works img:nth-child(2) {
+    margin-left: 34px;
+}
+
+.date {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.aboutItem img {
+    margin-left: 70px;
+}
+
+.desc {
+    float:left;
+    width: 300px;
+    text-align: right;
+}
+
+.desc h3 {
+    color: #222222;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 5px;
+    margin-top:5px;
+}
+
+.desc p {
+    color: #8d8d8d;
+    font-size: 14px;
+}
