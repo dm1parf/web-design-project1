@@ -173,17 +173,21 @@ h1 {
     font-weight: bold;
 }
 
-.aboutItem img {
+.aboutItemLeft {
+    margin-bottom: 90px;
+}
+
+.aboutItemLeft img {
     margin-left: 70px;
 }
 
-.desc {
+.aboutItemLeft .desc {
     float:left;
     width: 300px;
     text-align: right;
 }
 
-.desc h3 {
+.aboutItemLeft .desc h3 {
     color: #222222;
     font-weight: bold;
     font-size: 18px;
@@ -191,7 +195,41 @@ h1 {
     margin-top:5px;
 }
 
-.desc p {
+.aboutItemLeft .desc p {
     color: #8d8d8d;
     font-size: 14px;
+}
+
+.aboutItemRight {
+    margin-bottom: 90px;
+}
+
+.aboutItemRight img {
+    margin-left: 370px;
+}
+
+.aboutItemRight .desc {
+    float: right;
+    width: 300px;
+    text-align: left;
+}
+
+.aboutItemRight .desc h3 {
+    color: #222222;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 5px;
+    margin-top:5px;
+}
+
+.aboutItemRight .desc p {
+    color: #8d8d8d;
+    font-size: 14px;
+}
+
+.copyright {
+    font-size: 14px;
+    color: #8d8d8d;
+    text-align: center;
+    padding-bottom: 80px;
 }
